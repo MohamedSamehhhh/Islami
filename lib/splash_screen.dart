@@ -6,7 +6,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future.delayed(
-      Duration(minutes: 10),
+      Duration(minutes: 20),
       () {
         Navigator.pushReplacementNamed(context, SplashScreen.routeName);
       },
